@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资源跳转</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #1677ff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #4096ee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>点击下方按钮前往</h2>
+        <br>
+        <!-- 点击前往 -->
+        <a href="https://pan.quark.cn/s/b099f5cdafcb" class="btn" id="goBtn">前往</a>
+    </div>
+
+    <script>
+        // 如果需要在新标签页打开，可以取消下面的注释
+        // document.getElementById('goBtn').target = '_blank';
+    </script>
+</body>
+</html>
